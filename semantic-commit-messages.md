@@ -24,6 +24,7 @@ More Examples:
      - refers to JIRA-1337
      BREAKING CHANGE: ticket endpoints no longer supports list all entities.
 - `fix`: (bug fix for the user, not a fix to a build script)
+- `fix(api)`: (fix wrong calculation of request body checksum)
 - `docs`: (changes to the documentation)
 - `style`: (formatting, missing semi colons, etc; no production code change)
 - `refactor`: (refactoring production code, eg. renaming a variable)
