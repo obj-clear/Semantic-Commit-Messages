@@ -20,12 +20,17 @@ feat: add hat wobble
 More Examples:
 
 - `feat`: (new feature for the user, not a new feature for build script)
+- `feat!`: remove ticket list endpoint
+     - refers to JIRA-1337
+     BREAKING CHANGE: ticket endpoints no longer supports list all entities.
 - `fix`: (bug fix for the user, not a fix to a build script)
 - `docs`: (changes to the documentation)
 - `style`: (formatting, missing semi colons, etc; no production code change)
 - `refactor`: (refactoring production code, eg. renaming a variable)
 - `test`: (adding missing tests, refactoring tests; no production code change)
 - `chore`: (updating grunt tasks etc; no production code change)
+- `perf` : decrease memory footprint for determine uniqe visitors by using HyperLogLog
+- `build` : update dependencies
 
 References:
 
